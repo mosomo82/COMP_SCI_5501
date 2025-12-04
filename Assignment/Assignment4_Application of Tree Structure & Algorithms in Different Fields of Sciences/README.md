@@ -72,9 +72,9 @@ Assignment4_Application of Tree Structure & Algorithms in Different Fields of Sc
 
 **3. Vertex k-labeling (Perfect Ternary Tree**
 
-**Objective**: Implement an algorithm to assign vertex labels to a Perfect Ternary Tree (T3,5) such that edge weights are unique and consecutive.
+**Objective**: Implement an algorithm to assign vertex labels to a Perfect Ternary Tree ($T_{3,5}$) such that edge weights are unique and consecutive.
 
-- **Graph Parameters**: $V = 364, $E = 363$23.
+- **Graph Parameters**: $V = 364$, E = 363.
 
 - **Methodology**: Used an implicit array structure and a Partitioned Edge-Weight Assignment strategy.
 
