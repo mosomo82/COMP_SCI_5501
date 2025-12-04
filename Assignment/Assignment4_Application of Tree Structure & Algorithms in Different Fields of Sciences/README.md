@@ -121,16 +121,15 @@ The code for this assignment is hosted on Google Colab. You can access the speci
 
 ## Authors/Contributors:
 
-- **Tony Nguyen** 
-
 - **Bhavya Harshitha Chennu**
 
 - **Harris Hamid** 
 
 - **Manan Koradiya** 
 
-- **Amir Obsa** 
+- **Amir Obsa**
 
+- **Tony Nguyen**
 
 ## Acknowledgements
 
