@@ -34,18 +34,6 @@ Assignment4_Application of Tree Structure & Algorithms in Different Fields of Sc
 
 ```
 
-## Team Members
-
-- Bhavya Harshitha Chennu
-
-- Harris Hamid 
-
-- Manan Koradiya 
-
-- Amir Obsa 
-
-- Tony Nguyen 
-
 ## Key Task & Findings
 
 **1. AVL vs. Red-Black Tree Performance**
@@ -56,17 +44,17 @@ Assignment4_Application of Tree Structure & Algorithms in Different Fields of Sc
 
 - **Results**:
 
--- **Search Efficiency**: AVL Trees were significantly faster for retrieval.
+  - **Search Efficiency**: AVL Trees were significantly faster for retrieval.
 
---- AVL Total Search Time: 0.3 ms.
+    - AVL Total Search Time: 0.3 ms.
 
---- Red-Black Total Search Time: 2,847.4 ms.
+    - Red-Black Total Search Time: 2,847.4 ms.
 
--- **Insertion Cost**: Red-Black trees were faster to build due to fewer required rotations.
+  - **Insertion Cost**: Red-Black trees were faster to build due to fewer required rotations.
 
---- AVL Insertion Time: 25.74 ms (746 rotations).
+    - AVL Insertion Time: 25.74 ms (746 rotations).
 
---- Red-Black Insertion Time: 5.57 ms (604 rotations)
+    - Red-Black Insertion Time: 5.57 ms (604 rotations)
 
 **2. B-Tree Implementation**
 
@@ -74,11 +62,11 @@ Assignment4_Application of Tree Structure & Algorithms in Different Fields of Sc
 
 - **Results (100 Searches)**:
 
--- **List (Linear Scan)**: 4,814 comparisons (Avg: 48.14) - O(N).
+  -**List (Linear Scan)**: 4,814 comparisons (Avg: 48.14) - O(N).
 
--- **B-Tree**: 691 Comparisons (Avg: 6.91) - O(log N).
+    - **B-Tree**: 691 Comparisons (Avg: 6.91) - O(log N).
 
--- **HashMap**: 100 comparisons (Avg: 1) - O(1).
+    - **HashMap**: 100 comparisons (Avg: 1) - O(1).
 
 - **Conclusion**: Tree-based searching is far more efficient than unsorted lists, reducing comparisons by nearly an order of magnitude.
 
@@ -92,11 +80,11 @@ Assignment4_Application of Tree Structure & Algorithms in Different Fields of Sc
 
 - **Verification**: 
 
--- **Theoretical Max Label (k)**: 182
+  - **Theoretical Max Label (k)**: 182
 
--- **Algorithm Max Label**: 182
+  - **Algorithm Max Label**: 182
 
--- **Edge Weights**: All 363 edges had unique weights ranging from 2 to 364.
+  - **Edge Weights**: All 363 edges had unique weights ranging from 2 to 364.
 
 **4. Challenge: Homogeneous Amalgamated Star ($S_{m,n}$)**
 
@@ -108,7 +96,7 @@ Assignment4_Application of Tree Structure & Algorithms in Different Fields of Sc
 
 ## Dataset Description
 
-- **File**: raw_data/1000 Frequent Words.txt ; raw_data/customers-100.csv
+- **File**: [raw_data/1000 Frequent Words.txt](https://github.com/mosomo82/COMP_SCI_5501/blob/99818fd48448fe02eed8dfe07d148bd6f61ce8aa/Assignment/Assignment4_Application%20of%20Tree%20Structure%20%26%20Algorithms%20in%20Different%20Fields%20of%20Sciences/raw_data/1000%20Frequent%20Words.txt) ; [raw_data/customers-100.csv](https://github.com/mosomo82/COMP_SCI_5501/blob/main/Assignment/Assignment4_Application%20of%20Tree%20Structure%20%26%20Algorithms%20in%20Different%20Fields%20of%20Sciences/raw_data/customers-100.csv)
 - **Source**: Provided by the project
 
 ## Technologies Used
@@ -119,26 +107,17 @@ Assignment4_Application of Tree Structure & Algorithms in Different Fields of Sc
 
 - **Libraries**: math, collections, random, pandas.
 
-
-
-## Installation / Setup
-
-- **Requirement**: None
-- **Enviroment**: This assignement was built using R. Change runtime in Google Colab by choosing Runtime > Change runtime type > Click on down arrow under Runtime type > Select R > Click Save
-
 ## How to Run the Project
 
 The code for this assignment is hosted on Google Colab. You can access the specific notebooks for each problem using the links below:
 
-**1.** Problem 1 (AVL vs Red-Black):  in [src/*.ipynb](https://github.com/mosomo82/COMP_SCI_5530/blob/main/Assignment/Assignment_2/Q2_Diabetes/src/Assignment2_Diabetes.ipynb) 
+**1.** Problem 1 (AVL vs Red-Black):  in [src/Assignment4_Problem1.ipynb](https://github.com/mosomo82/COMP_SCI_5501/blob/main/Assignment/Assignment4_Application%20of%20Tree%20Structure%20%26%20Algorithms%20in%20Different%20Fields%20of%20Sciences/src/Assignment4_Problem1.ipynb) 
 
-**2.** Problem 2 (B-Tree):  in [src/*.ipynb](https://github.com/mosomo82/COMP_SCI_5530/blob/main/Assignment/Assignment_2/Q2_Diabetes/src/Assignment2_Diabetes.ipynb) 
+**2.** Problem 2 (B-Tree):  in [src/Assignment4_Problem2.ipynb](https://github.com/mosomo82/COMP_SCI_5501/blob/main/Assignment/Assignment4_Application%20of%20Tree%20Structure%20%26%20Algorithms%20in%20Different%20Fields%20of%20Sciences/src/Assignment4_Problem2.ipynb)
 
-**3.** Problem 3 (Ternary Tree Labeling):  in [src/*.ipynb](https://github.com/mosomo82/COMP_SCI_5530/blob/main/Assignment/Assignment_2/Q2_Diabetes/src/Assignment2_Diabetes.ipynb) 
+**3.** Problem 3 (Ternary Tree Labeling):  in [src/Assignment4_Problem3.ipynb](https://github.com/mosomo82/COMP_SCI_5501/blob/main/Assignment/Assignment4_Application%20of%20Tree%20Structure%20%26%20Algorithms%20in%20Different%20Fields%20of%20Sciences/src/Assignment4_Problem3.ipynb)
 
-**4.** Challenge (Star Labeling): in [src/*.ipynb](https://github.com/mosomo82/COMP_SCI_5530/blob/main/Assignment/Assignment_2/Q2_Diabetes/src/Assignment2_Diabetes.ipynb) 
-
-## License
+**4.** Challenge (Star Labeling): in [src/Assignment4_ChallengingProblem.ipynb](https://github.com/mosomo82/COMP_SCI_5501/blob/main/Assignment/Assignment4_Application%20of%20Tree%20Structure%20%26%20Algorithms%20in%20Different%20Fields%20of%20Sciences/src/Assignment4_ChallengingProblem.ipynb)
 
 ## Authors/Contributors:
 
